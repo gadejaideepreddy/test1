@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header{
+    margin-left: 250px;
+    background-image: url("img/background2.jpg");
+    padding: 10px;
+    color: white;
+}
+nav{
+    margin-left: 250px;
+    background-color: black;
+    padding: 5px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color:#b53d2f;
+}
+nav a.active{
+    background-color: darkred;
+}
+
+/* ---------------- Sidebar --------------- */
+aside{
+    background-image: url("img/background2.jpg");
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+aside a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 18px 25px;
+}
+aside a:hover{
+    background-color: #cf857c;
+}
+
+/* -------------- Main Section -------------- */
+.main-section{
+    margin-left: 250px;
+    padding: 20px;
+}
+.main-section h1{
+    font-size: 30px;
+    color: darkred;
+    font-family: "Comic Sans MS",sans-serif;
+}
+.main-article p{
+    font-size: 20px;
+    color: gray;
+}
+
+footer{
+    background-image: url("img/background2.jpg");
+    padding: 10px;
+    margin-left: 250px;
+    color: white;
+    box-shadow: 0 0 15px black;
+}
